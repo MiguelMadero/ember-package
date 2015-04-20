@@ -2,5 +2,8 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-package'
+  name: 'ember-package',
+  includedCommands: function () {
+    return require('./lib/commands');
+  }
 };
