@@ -1,7 +1,7 @@
 {
   "name": "ember-package",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "Package your ember-addons to be consumer by non Ember CLI Apps or consume ember-addons from your non ember-cli app",
   "directories": {
     "doc": "doc",
     "test": "tests"
