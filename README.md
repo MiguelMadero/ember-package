@@ -4,6 +4,8 @@
 
 Ember Package helps add-on authors and add-on consumers by removing the need to use EmberCLI from non Ember CLI Applications. I think it's better to migrate the application to use Ember CLI, but this can help as an interim step. This is designed for add-ons consumed at runtime, not for add-ons that extend the build pipeline, add blueprints or commands.
 
+**NOTE:** for an alternative, with a slightly different approach, check [giftwrap](https://github.com/ef4/ember-giftwrap/issues/new). Giftwrap, builds multiple addons into a single set of JS and CSS files. It also let's you `GiftWrap.install` the wrapped addons into your App, which ember-package doesn't do. However it offers no support for package authors.
+
 ## For consumers
 
 Start by installing and initializing ember-package
