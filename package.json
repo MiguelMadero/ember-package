@@ -1,6 +1,6 @@
 {
   "name": "ember-package",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Package your ember-addons to be consumer by non Ember CLI Apps or consume ember-addons from your non ember-cli app",
   "directories": {
     "doc": "doc",
